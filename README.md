@@ -83,4 +83,5 @@ again when you get more games or want to update the category overlays.
 - **It didn't apply any overlays**: ensure the overlay file name matches your category name, including possible punctuation (differences in caps are ignored). For example, `favorites.png` is used for the `Favorites` category.
 - **I'm worried this is a virus**: I work with security, so no offense taken from a little paranoia. The complete source code is provided at this [Github repo](https://github.com/boppreh/steamgrid). If you are worried the binaries don't match the source, you can install Go on your machine and run the sources directly. All it does is save images inside `Steam/userdata/ID/config/grid`. It does connect to the internet, but only to fetch game names from you Steam profile and download images into the Steam's grid image folder. Nothing is installed or saved in the Windows registry, and aside from images downloaded, it should leave the computer exactly as it found.
 
+   
 If you encounter any problems, please [open an issue](https://github.com/boppreh/steamgrid/issues/new). All critics and suggestions are welcome.
